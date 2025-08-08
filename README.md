@@ -2,12 +2,12 @@
 
 Este proyecto implementa y visualiza el modelo Lotka-Volterra, una simulación matemática de la dinámica depredador-presa, usando como ejemplo zorros (depredadores) y conejos (presas).  
 
-Incluye scripts en Python para la simulación, imágenes de los animales, gráficos resultantes y animaciones de la evolución de las poblaciones. 
+Incluye scripts en Python para la simulación, imágenes de los animales, gráficos y animaciones de la evolución de las poblaciones. 
 
 ## Contenido del repositorio
 
-- **zorrosconejos.py** – Versión básica de la simulación, permite una mayor visualización del simulador, pero puede tardar más en cargar.
-- **zorrosconejosoptimizado.py** – Versión optimizada para mejor rendimiento.
+- **zorrosconejos.py** – Versión básica de la simulación, permite una visualización más intuitiva del simulador, pero puede tardar más en cargar.
+- **zorrosconejosoptimizado.py** – Versión optimizada para mejor rendimiento. Directamente te da el gráfico final de la cantidad de depredadores y presas en función del tiempo.
 - **fox.png** – Imagen del zorro usada en visualizaciones.
 - **rabbit.png** – Imagen del conejo usada en visualizaciones.
 - **Figure_1.png** – Gráfico estático generado por la simulación.
@@ -17,4 +17,5 @@ Incluye scripts en Python para la simulación, imágenes de los animales, gráfi
 ## Requisitos
 
 - Python 3.x
+
 - Bibliotecas: matplotlib , numpy
