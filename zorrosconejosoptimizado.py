@@ -1,4 +1,3 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
 # Parámetros
@@ -76,4 +75,5 @@ plt.xlabel('Tiempo')
 plt.ylabel('Población')
 plt.legend()
 plt.grid(True)
+
 plt.show()
